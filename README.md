@@ -1,9 +1,9 @@
 
-# 🔬 Laser Therapy Dosimetry Predictor
+# Laser Therapy Dosimetry Predictor
 
 This is a web-based machine learning app for predicting optimal laser therapy parameters for patients with knee osteoarthritis (OA).
 
-## 🚀 What It Does
+## What It Does
 
 Given basic patient and device input:
 - Age
@@ -19,14 +19,14 @@ The app predicts:
 - **Relaxation Time** (in microseconds)
 - **Energy Delivered** (in Joules)
 
-## 🧠 How It Works
+## How It Works
 
 The model uses:
 - A real dataset of previous treatments (`Rofaydeh-Updated.xlsx`)
 - Preprocessing (scaling, encoding, imputation)
 - Multi-output Random Forest Regressor
 
-## 🛠 How to Use (for developers)
+## How to Use (for developers)
 
 1. Clone the repo or upload your data file.
 2. Install dependencies:
@@ -38,7 +38,7 @@ pip install streamlit pandas scikit-learn openpyxl
 streamlit run app.py
 ```
 
-## 🌐 Or Use It Online
+## Or Use It Online
 
 If deployed on [Streamlit Cloud](https://streamlit.io/cloud), just open the shared link.
 
