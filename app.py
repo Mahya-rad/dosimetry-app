@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 @st.cache_resource
 def load_model_and_preprocessor():
     try:
-        df = pd.read_excel("dosimetry-app/Cleaned_data.xlsx")
+        df = pd.read_excel("Cleaned_data.xlsx")
         st.write("Data loaded successfully!")
         st.write("Available columns:", df.columns.tolist())
         st.write("Data shape:", df.shape)
